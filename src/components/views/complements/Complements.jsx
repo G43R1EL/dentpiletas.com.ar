@@ -1,5 +1,11 @@
-export const Accessories = () => {
+import {Container} from "../helpers/container/Container";
+
+export const Complements = () => {
     return (
-        <h3>Accessories works!</h3>
+        <Container>
+            <main>
+                <h3>Complements works!</h3>
+            </main>
+        </Container>
     )
 }

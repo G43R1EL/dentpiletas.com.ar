@@ -1,1 +1,7 @@
-import './main.scss'
+@import "./partials/vars";
+@import "./partials/common";
+@import "./partials/header";
+@import "partials/main";
+@import "./partials/footer";
+@import "./partials/components";
+@import "./partials/animations";

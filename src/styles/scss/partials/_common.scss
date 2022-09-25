@@ -1,0 +1,36 @@
+body {
+  min-height: 100vh;
+}
+
+#root {
+  display: grid;
+  grid-template-rows: min-content auto min-content;
+  min-height: 100vh;
+}
+
+.site__container {
+  width: 100%;
+  @include desktop {
+    padding: 0 2rem;
+  }
+  @include larger {
+    padding: 0 8rem;
+  }
+}
+
+.container__columns {
+  padding: 0;
+  @include larger {
+    padding: 0;
+  }
+}
+
+.site__hero {
+  height: 50vh;
+  overflow: hidden;
+  video {
+    height: 50vh;
+    object-fit: cover;
+    width: 100%;
+  }
+}
